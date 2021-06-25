@@ -1,6 +1,6 @@
 //getting API data
 
-const URL = "https://reststop.randomhouse.com/resources"
+const URL = "https://reststop.randomhouse.com/resources/titles/"
 
 function getBooks(){
 return fetch(URL,{
