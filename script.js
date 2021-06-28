@@ -1,6 +1,6 @@
 //getting API data
-
-const URL = "https://reststop.randomhouse.com/resources/titles/"
+// "https://reststop.randomhouse.com/resources/authors?lastName=Riordan&firstName=Rick"
+const URL = "https://reststop.randomhouse.com/resources/authors?lastName=Riordan&firstName=Rick"
 
 function getBooks(){
 return fetch(URL,{
@@ -11,4 +11,8 @@ headers: {
 body: JSON.stringify(body)
 })
 .then(response => response.json())
-}
+};
+console.log(getBooks);
+
+//author URI
+//author uri="https://reststop.randomhouse.com/resources/authors/2182452"
