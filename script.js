@@ -2,17 +2,15 @@
 // "https://reststop.randomhouse.com/resources/authors?lastName=Riordan&firstName=Rick"
 const URL = "https://reststop.randomhouse.com/resources/authors?lastName=Riordan&firstName=Rick"
 
-function getBooks(){
+function getAuthor(){
 return fetch(URL,{
+mode: "no-cors",
 method: "GET",
 headers: {
-    "Content-type": application/json
-},
-body: JSON.stringify(body)
+    "Content-type": "application/json"
+}
 })
 .then(response => response.json())
 };
-console.log(getBooks);
 
-//author URI
-//author uri="https://reststop.randomhouse.com/resources/authors/2182452"
+
