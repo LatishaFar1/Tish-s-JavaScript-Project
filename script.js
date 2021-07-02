@@ -1,16 +1,18 @@
-//getting API data
-// "https://reststop.randomhouse.com/resources/authors?lastName=Riordan&firstName=Rick"
-const URL = "https://reststop.randomhouse.com/resources/authors?lastName=Riordan&firstName=Rick"
+//fetching API data
+// "https://www.tvmaze.com/api"
+const URL = "https://api.tvmaze.com/singlesearch/shows?q=loki"
 
-function getAuthor(){
-return fetch(URL,{
-mode: "no-cors",
-method: "GET",
-headers: {
-    "Content-type": "application/json"
+
+function getTV(){
+  return fetch(URL,{
+    mode: "no-cors"
+  })
+  .then(res => {res.json()
+  })
 }
-})
-.then(response => response.json())
-};
+//getting data on Loki - fix me!
+
+
+const lokiInfo = document.querySelector("#tvshow")
 
 
