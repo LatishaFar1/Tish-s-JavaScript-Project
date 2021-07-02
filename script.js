@@ -1,45 +1,27 @@
-//fetching API data
-// "https://www.tvmaze.com/api"
-const URL = "https://api.tvmaze.com/singlesearch/shows?q=loki"
+//fetching server data
 
-function getTV(){
-return fetch(URL)
-.then(res => {
-  return res.json()
+const URL =  "http://localhost:3000/characters"
+
+fetch(URL)
+.then(res => res.json())
+.then(data => {
+  console.log(data)
 })
-.then(dataRes => {
-  console.log(dataRes);
-}) 
-};
-
 //getting data on Loki - fix me!
 
 
 const lokiInfo = document.querySelector("#tvshow")
 
 
-getTV()
-.then(data => {
-  const lokiSumm = data.summary
-  lokiInfo.innerHTML = summary
-})
 
 
 
 
 
+//search function
 
-// maybe add search for your own show?
 
-const searchURL = `http://api.tvmaze.com/search/shows?q=${search}`;
-function searchTV(search){
-return fetch(URL)
-.then(res => {
-  return res.json()
-})
-.then(dataRes => {
-  console.log(dataRes);
-}) 
-};
+// quiz?
+
 
 

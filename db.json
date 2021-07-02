@@ -1,7 +1,8 @@
 {
     "Descripton": [
         {
-            "summary": "After stealing the Tesseract during the events of Avengers: Endgame (2019), an alternate version of Loki is brought to the mysterious Time Variance Authority (TVA), a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a 'time variant', or help fix the timeline and stop a greater threat. Loki ends up trapped in his own crime thriller, traveling through time and altering human history"
+            "summary": "After stealing the Tesseract during the events of Avengers: Endgame (2019), an alternate version of Loki is brought to the mysterious Time Variance Authority (TVA), a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a 'time variant', or help fix the timeline and stop a greater threat. Loki ends up trapped in his own crime thriller, traveling through time and altering human history",
+            "genre": "action-adventure, fantasy, superhero, science-fiction"
         }
     ],
     
@@ -17,8 +18,31 @@
             "name": "Mobius M. Mobius",
             "summary":"An agent of the TVA who specializes in the investigations of particularly dangerous time criminals.Herron likened Mobius to a hard-boiled detective, with Wilson comparing him to the character Jack Cates in 48 Hrs. (1982). Marvel Studios president Kevin Feige noted that the character is similar to Wilson in that he is unfazed by the MCU; Hiddleston helped Wilson prepare for the role by explaining and showing him moments from the MCU films, which Wilson felt was useful for when Mobius interviews Loki in the series. Wilson and Herron examined Good Will Hunting (1997) as inspiration for Mobius being a mentor and therapist for Loki who still pushes him.",
             "age": ""
+        },
+        {
+            "id": 3,
+            "name":"Sylvie",
+            "summary":"A variant of Loki who is attacking the ‘Sacred Timeline’ and has enchantment powers.She does not consider herself to be a Loki, using the name ‘Sylvie' as an alias.While Sylvie was inspired by Sylvie Lushton / Enchantress and Lady Loki from the comics, she is a different person with a different backstory from those characters as well as Hiddleston's Loki",
+            "age": ""
         }
 
+    ],
+    "Episodes": [
+        {
+            "id": 1,
+            "name": "'Episode 1: Glorious Purpose'",
+            "summary": "Loki is arrested by the Time Variance Authority (TVA) when he creates a new timeline after escaping from the Battle of New York with the Tesseract in 2012.The TVA resets the timeline, and this 'variant' Loki stands trial in front of Judge Ravonna Renslayer for crimes against the 'Sacred Timeline'. Loki blames the situation on the Avengers, who had traveled back in time to 2012, but Renslayer says their actions were meant to happen unlike Loki's escape. Agent Mobius M. Mobius takes Loki to the Time Theater to review his past misdeeds and question his history of hurting people. He reveals that Loki, in his intended future, inadvertently causes the death of his adoptive mother Frigga. Loki attempts to escape, but gives up after realizing that the TVA's power exceeds that of the Infinity Stones. He returns to the Time Theater and watches more future events, including his own death at the hands of Thanos. He then agrees to help Mobius hunt another Loki variant who has killed several TVA agents and stolen their timeline-resetting charges."
+        },
+        {
+            "id": 2,
+            "name": "'Episode 2: The Variant'",
+            "summary": "Loki joins a TVA mission to the site of an attack by ‘The Variant’ in 1985 Oshkosh, Wisconsin, where he stalls and attempts to bargain his way into meeting the Time-Keepers, who created the TVA and the Sacred Timeline. Renslayer objects to Loki's further involvement, but Mobius convinces her to give him another chance. Loki researches TVA files and theorizes that the Variant is hiding near apocalyptic events where their actions do not affect the timeline. Loki and Mobius confirm this possibility by visiting Pompeii in 79 AD, before deducing that the Variant is hiding during a hurricane in 2050 Alabama. There, they are ambushed by the Variant, who possesses the bodies of several locals and TVA agent Hunter B-15. The Variant reveals herself to be a female version of Loki and rejects his offer to overthrow the Time-Keepers together. She sends the stolen reset charges to various points along the Sacred Timeline, which activate and create numerous branched timelines that throw the TVA into disarray. She teleports away and Loki follows her."
+        },
+        {
+            "id": 3,
+            "name": "'Episode 3: Lamentis'",
+            "summary":"The Variant arrives at the TVA and attempts to find the Time-Keepers, followed by Loki, who uses a TemPad to teleport them both away and escape from Renslayer. They arrive at 2077 Lamentis-1, a moon that is soon to be crushed by a planet, and the TemPad runs out of power. Loki magically hides it, and the Variant, who goes by the alias Sylvie, agrees to work with him to charge it. They sneak aboard a train bound for the ark, an evacuation spaceship, which they believe can recharge the TemPad. Loki gets drunk and draws attention to them, leading to a fight with guards who throw him off the train. Sylvie follows him, only to find the TemPad broken, and the duo decide to finish the journey on foot and commandeer the ark so they can use it to escape. Sylvie reveals that the TVA's workers are all variants and were not created by the Time-Keepers as Mobius claimed. Loki and Sylvie fight their way through guards and a crowd of people attempting to board the ark. Before they get there, meteors from the oncoming planet destroy the ark."
+        }
     ]
     
 }
