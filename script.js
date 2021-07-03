@@ -30,7 +30,7 @@ const quizQuestions = [
    ]
  },
  {
- question: "In Episode 2, Loki and Sylvie blow up the TVA.",
+ question: "In Episode 4, Mobius is killed.",
  answer:[
    {a: "true"},
    {b: "false"}
@@ -40,28 +40,46 @@ const quizQuestions = [
 
 
 
-// correct answer function. use ""== ""?
-const answer = "false"
+// // correct answer function. use ""== ""?
+// const answer = "false"
 
-function quizGrading(){
-  if (answer == "false")
-  {
-    console.log("correct!")
-  }
-  else {
-    console.log("wrong!")
-  }
-}
+// function quizGrading(){
+//   if (answer == "false")
+//   {
+//     console.log("correct!")
+//   }
+//   else {
+//     console.log("wrong!")
+//   }
+// }
 
 
 //Event Listeners
+  window.addEventListener("DOMContentLoaded", () =>{
+    console.log("Page loaded")
+  });
   //selecting answer
-
   const trueButton = document.getElementById("trueButton");
   const falseButton = document.getElementById("falseButton");
-trueButton.addEventListener("click", () =>{
-  alert("wrong!");
-})
-falseButton.addEventListener("click",() =>{
-  alert("right!");
-})
+  const trueButton2 = document.getElementById("trueButton2");
+  const falseButton2 = document.getElementById("falseButton2");
+  trueButton.addEventListener("click", () => {
+    alert("wrong!")
+  });
+  falseButton.addEventListener("click", () =>{
+    alert("right!")
+  });
+  trueButton2.addEventListener("click", () => {
+    alert("right!")
+  });
+  falseButton2.addEventListener("click", () =>{
+    alert("wrong!")
+  });
+
+
+// trueButton.addEventListener("click", () =>{
+//   alert("wrong!");
+// })
+// falseButton.addEventListener("click",() =>{
+//   alert("right!");
+// })
