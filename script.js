@@ -10,12 +10,9 @@ fetch(CharacterURL)
 
 
 
-
-
-
 //search function/ menu OR random 'Loki' fact generator
 
-//part 1
+
 function characterInfo(){
   document.getElementById("")
 }
@@ -42,11 +39,29 @@ const quizQuestions = [
 ];
 
 
+
 // correct answer function. use ""== ""?
+const answer = "false"
 
 function quizGrading(){
   if (answer == "false")
   {
-    alert("correct!")
+    console.log("correct!")
+  }
+  else {
+    console.log("wrong!")
   }
 }
+
+
+//Event Listeners
+  //selecting answer
+
+  const trueButton = document.getElementById("trueButton");
+  const falseButton = document.getElementById("falseButton");
+trueButton.addEventListener("click", () =>{
+  alert("wrong!");
+})
+falseButton.addEventListener("click",() =>{
+  alert("right!");
+})
