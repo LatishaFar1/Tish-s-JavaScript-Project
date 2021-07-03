@@ -1,6 +1,7 @@
 {
     "Descripton": [
         {
+            "id": 1,
             "summary": "After stealing the Tesseract during the events of Avengers: Endgame (2019), an alternate version of Loki is brought to the mysterious Time Variance Authority (TVA), a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a 'time variant', or help fix the timeline and stop a greater threat. Loki ends up trapped in his own crime thriller, traveling through time and altering human history",
             "genre": "action-adventure, fantasy, superhero, science-fiction"
         }
@@ -11,19 +12,19 @@
             "id": 1,
             "name": "Loki",
             "summary":"Thor's adopted brother and the god of mischief, based on the Norse mythological deity of the same name. This is an alternate, 'time variant' version of Loki who created a new timeline in Avengers: Endgame (2019) beginning in 2012. Because of this, he has not gone through the events of Thor: The Dark World (2013) or Thor: Ragnarok (2017), which reformed the previously villainous character before his death in Avengers: Infinity War (2018). Head writer Michael Waldron compared Loki to Apple Inc. co-founder Steve Jobs since both were adopted and love being in control. Hiddleston expressed interest in returning to the role in order to explore Loki's powers, particularly his shapeshifting, which plays into the series' exploration of identity. The series focuses more on Loki's capabilities with magic, such as telekinesis and firing magic blasts.[9] Loki's sex in the series is denoted by the Time Variance Authority as 'fluid', referencing the character's genderfluidity in Marvel Comics that had previously been speculated on for the MCU given his shapeshifting ability.[10][11] Waldron said he was aware of how many people identify with Loki and were 'eager for that representation'. The series also reveals Loki as bisexual, becoming the first major queer character in the MCU" ,
-            "age": ""
+            "age": "900+"
         },
         {
             "id": 2,
             "name": "Mobius M. Mobius",
             "summary":"An agent of the TVA who specializes in the investigations of particularly dangerous time criminals.Herron likened Mobius to a hard-boiled detective, with Wilson comparing him to the character Jack Cates in 48 Hrs. (1982). Marvel Studios president Kevin Feige noted that the character is similar to Wilson in that he is unfazed by the MCU; Hiddleston helped Wilson prepare for the role by explaining and showing him moments from the MCU films, which Wilson felt was useful for when Mobius interviews Loki in the series. Wilson and Herron examined Good Will Hunting (1997) as inspiration for Mobius being a mentor and therapist for Loki who still pushes him.",
-            "age": ""
+            "age": "Unknown"
         },
         {
             "id": 3,
             "name":"Sylvie",
             "summary":"A variant of Loki who is attacking the ‘Sacred Timeline’ and has enchantment powers.She does not consider herself to be a Loki, using the name ‘Sylvie' as an alias.While Sylvie was inspired by Sylvie Lushton / Enchantress and Lady Loki from the comics, she is a different person with a different backstory from those characters as well as Hiddleston's Loki",
-            "age": ""
+            "age": "900+"
         }
 
     ],
@@ -42,6 +43,11 @@
             "id": 3,
             "name": "'Episode 3: Lamentis'",
             "summary":"The Variant arrives at the TVA and attempts to find the Time-Keepers, followed by Loki, who uses a TemPad to teleport them both away and escape from Renslayer. They arrive at 2077 Lamentis-1, a moon that is soon to be crushed by a planet, and the TemPad runs out of power. Loki magically hides it, and the Variant, who goes by the alias Sylvie, agrees to work with him to charge it. They sneak aboard a train bound for the ark, an evacuation spaceship, which they believe can recharge the TemPad. Loki gets drunk and draws attention to them, leading to a fight with guards who throw him off the train. Sylvie follows him, only to find the TemPad broken, and the duo decide to finish the journey on foot and commandeer the ark so they can use it to escape. Sylvie reveals that the TVA's workers are all variants and were not created by the Time-Keepers as Mobius claimed. Loki and Sylvie fight their way through guards and a crowd of people attempting to board the ark. Before they get there, meteors from the oncoming planet destroy the ark."
+        },
+        {
+            "id": 4,
+            "name": "'Episode 4: The Nexus Event'",
+            "summary": "As Lamentis-1 is destroyed around them, Loki and Sylvie have a romantic moment that creates a unique branched timeline and alerts the TVA, allowing for their rescue and arrest. Mobius leaves Loki in a time loop of a moment from his past when Sif told him that he will always be alone, while Sylvie unlocks B-15's memories to prove that B-15 is a variant. Renslayer tells Mobius that C-20 died from a mental breakdown, but Mobius finds a recording of Renslayer interrogating a mentally sound C-20 who insists that the TVA workers are all variants. Mobius frees Loki from the loop, but Renslayer confronts them and has Mobius apparently killed by ‘pruning’ him. Renslayer brings Loki and Sylvie to the Time-Keepers, where B-15 helps them fight off Renslayer and TVA guards. Sylvie beheads one of the Time-Keepers, revealing them to be androids. A recovered Renslayer prunes Loki, but Sylvie overpowers her and demands the truth. In a mid-credits scene, Loki awakens in a post-apocalyptic New York City to find several other Loki variant"
         }
     ]
     

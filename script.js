@@ -7,21 +7,19 @@ fetch(URL)
 .then(data => {
   console.log(data)
 })
-//getting data on Loki - fix me!
-
-
-const lokiInfo = document.querySelector("#tvshow")
 
 
 
 
 
 
-
-//search function
+//search function/dropdown menu
 
 
 // quiz?
 
+const quizQuestions = [
+
+]
 
 
