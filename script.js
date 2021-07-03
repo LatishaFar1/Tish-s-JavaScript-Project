@@ -1,8 +1,8 @@
 //fetching server data
 
-const URL =  "http://localhost:3000/characters"
+const CharacterURL =  "http://localhost:3000/characters"
 
-fetch(URL)
+fetch(CharacterURL)
 .then(res => res.json())
 .then(data => {
   console.log(data)
@@ -13,13 +13,32 @@ fetch(URL)
 
 
 
-//search function/dropdown menu
+//search function/ menu OR random 'Loki' fact generator
+
+//part 1
+function characterInfo(){
+  document.getElementById("")
+}
+
 
 
 // quiz?
 
 const quizQuestions = [
-
-]
+ {
+   question: "Loki is 400 years old.",
+   answer: [
+     {a: true},
+     {b: false}
+   ]
+ },
+ {
+ question: "In Episode 2, Loki and Sylvie blow up the TVA.",
+ answer:[
+   {a:true},
+   {b: false}
+ ]
+}
+];
 
 
