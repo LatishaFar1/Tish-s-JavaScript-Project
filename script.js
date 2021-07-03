@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+
+
+
 //fetching server data
 
 const CharacterURL =  "http://localhost:3000/characters"
@@ -55,10 +59,8 @@ const quizQuestions = [
 
 
 //Event Listeners
-  window.addEventListener("DOMContentLoaded", () =>{
-    console.log("Page loaded")
-  });
-  //selecting answer
+ 
+      //selecting answer
   const trueButton = document.getElementById("trueButton");
   const falseButton = document.getElementById("falseButton");
   const trueButton2 = document.getElementById("trueButton2");
@@ -77,9 +79,4 @@ const quizQuestions = [
   });
 
 
-// trueButton.addEventListener("click", () =>{
-//   alert("wrong!");
-// })
-// falseButton.addEventListener("click",() =>{
-//   alert("right!");
-// })
+});
