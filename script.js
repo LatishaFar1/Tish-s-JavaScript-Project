@@ -42,4 +42,11 @@ const quizQuestions = [
 ];
 
 
-// correct answer function. use ""=== ""?
+// correct answer function. use ""== ""?
+
+function quizGrading(){
+  if (answer == "false")
+  {
+    alert("correct!")
+  }
+}
