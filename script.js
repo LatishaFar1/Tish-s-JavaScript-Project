@@ -4,22 +4,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //fetching server data
 
-const CharacterURL =  "http://localhost:3000/characters"
+const characterURL =  "http://localhost:3000/characters"
+const episodeURL = "http://localhost:3000/Episodes"
 
-fetch(CharacterURL)
+
+
+fetch(characterURL)
 .then(res => res.json())
 .then(data => {
   console.log(data)
+  const ul = document.querySelector("#charContainer")
+  data.forEach(characters => {
+   ul.append(JSON.stringify(characters))
+  })
 })
 
 
+fetch(episodeURL)
+.then(res => res.json())
+.then(data => {
+  console.log(data)
+  const li = document.querySelector("#epContainer")
+  data.forEach(Episodes => {
+   li.append(JSON.stringify(Episodes))
+  })
+})
 
 //search function/ menu OR random 'Loki' fact generator
-
-
-function characterInfo(){
-  document.getElementById("")
-}
 
 
 
