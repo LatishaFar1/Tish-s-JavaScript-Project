@@ -15,7 +15,10 @@ fetch(characterURL)
   console.log(data)
   const ul = document.querySelector("#charContainer")
   data.forEach(characters => {
-   ul.append(JSON.stringify(characters))
+    const charpieces = `${characters.name} ${characters.age} ${characters.summary}`
+   const li = document.createElement("charContainer")
+    li.innerHTML = charpieces
+    ul.append(li)
   })
 })
 
@@ -24,9 +27,12 @@ fetch(episodeURL)
 .then(res => res.json())
 .then(data => {
   console.log(data)
-  const li = document.querySelector("#epContainer")
+  const ul = document.querySelector("#epContainer")
   data.forEach(Episodes => {
-   li.append(JSON.stringify(Episodes))
+    const eppieces = `${Episodes.name} ${Episodes.summary} `
+   const li = document.createElement("epContainer")
+    li.innerHTML = eppieces
+    ul.append(li)
   })
 })
 
