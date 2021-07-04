@@ -94,6 +94,12 @@ const quizQuestions = [
   falseButton2.addEventListener("click", () =>{
     alert("wrong!")
   });
+      //subscribe form
+  const subscribe = document.getElementById("subscribe")
+  subscribe.addEventListener("submit", (event) =>{
+    event.preventDefault();
+    alert("submitted!")
+  });
 
 
 });
