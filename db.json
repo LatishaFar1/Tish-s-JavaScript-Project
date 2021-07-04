@@ -7,26 +7,14 @@
         }
     ],
     
-    "characters": [
+    "loki": [
         {
             "id": 1,
             "name": "Loki",
-            "summary":"Thor's adopted brother and the god of mischief, based on the Norse mythological deity of the same name. This is an alternate, 'time variant' version of Loki who created a new timeline in Avengers: Endgame (2019) beginning in 2012. Because of this, he has not gone through the events of Thor: The Dark World (2013) or Thor: Ragnarok (2017), which reformed the previously villainous character before his death in Avengers: Infinity War (2018). Head writer Michael Waldron compared Loki to Apple Inc. co-founder Steve Jobs since both were adopted and love being in control. Hiddleston expressed interest in returning to the role in order to explore Loki's powers, particularly his shapeshifting, which plays into the series' exploration of identity. The series focuses more on Loki's capabilities with magic, such as telekinesis and firing magic blasts. Loki's sex in the series is denoted by the Time Variance Authority as 'fluid', referencing the character's genderfluidity in Marvel Comics that had previously been speculated on for the MCU given his shapeshifting ability.",
-            "age": "age: 900+"
-        },
-        {
-            "id": 2,
-            "name": "Mobius M. Mobius",
-            "summary":"An agent of the TVA who specializes in the investigations of particularly dangerous time criminals.Herron likened Mobius to a hard-boiled detective, with Wilson comparing him to the character Jack Cates in 48 Hrs. (1982). Marvel Studios president Kevin Feige noted that the character is similar to Wilson in that he is unfazed by the MCU; Hiddleston helped Wilson prepare for the role by explaining and showing him moments from the MCU films, which Wilson felt was useful for when Mobius interviews Loki in the series. Wilson and Herron examined Good Will Hunting (1997) as inspiration for Mobius being a mentor and therapist for Loki who still pushes him.",
-            "age": "age: Unknown"
-        },
-        {
-            "id": 3,
-            "name":"Sylvie",
-            "summary":"A variant of Loki who is attacking the ‘Sacred Timeline’ and has enchantment powers.She does not consider herself to be a Loki, using the name ‘Sylvie' as an alias.While Sylvie was inspired by Sylvie Lushton / Enchantress and Lady Loki from the comics, she is a different person with a different backstory from those characters as well as Hiddleston's Loki",
+            "summary":"Thor's adopted brother and the god of mischief, based on the Norse mythological deity of the same name. This is an alternate, 'time variant' version of Loki who created a new timeline in Avengers: Endgame (2019) beginning in 2012. Because of this, he has not gone through the events of Thor: The Dark World (2013) or Thor: Ragnarok (2017), which reformed the previously villainous character before his death in Avengers: Infinity War (2018).",
             "age": "age: 900+"
         }
-
+    
     ],
     "Episodes": [
         {

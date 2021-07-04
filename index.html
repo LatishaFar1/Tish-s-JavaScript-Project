@@ -11,8 +11,14 @@
 <body>
    
     <h1>Welcome</h1>
-    <img src ="https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png" alt ="Loki photo">
-<div>
+    <img id="main-photo" src ="https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png" alt ="show photo">
+   <!--beginning of character info-->
+    <div id="lokipic">
+        <img src="https://www.irishtimes.com/polopoly_fs/1.4589815.1623338484!/image/image.jpg_gen/derivatives/box_460_245/image.jpg" alt="loki pic" onclick="">
+        
+    </div>
+    <!--end of character info-->
+    <div>
    <ul id="charContainer"> </ul>
    <ul id="epContainer"> </ul>
 </div>
@@ -39,8 +45,10 @@
     <h3>subscribe to receive more information</h3>
     <label for="name">name</label>
 <input type="text" name="name" id="name">
+   <br>
     <label for="email">email</label>
 <input type="text" name="email" id="email">
+<br>
 <button type="submit" id="submitbutton">submit</button>
 </form>
 
