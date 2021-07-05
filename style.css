@@ -29,9 +29,20 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 22.5%;
 
 }
+
+#char{
+    width: 1000px;
+    border: 20px solid goldenrod;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto; 
+}
+
 #summ{
     text-align: center;
     color:white;
