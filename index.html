@@ -11,28 +11,29 @@
 <body>
    
     <h1>Welcome</h1>
-    <img id="main-photo" src ="https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png" alt ="show photo">
-   <!--beginning of character info-->
+    <img  id="main-photo" src ="https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png" alt ="show photo">
+    <!--beginning of character info-->
     <div id="lokipic">
-        <img src="https://www.irishtimes.com/polopoly_fs/1.4589815.1623338484!/image/image.jpg_gen/derivatives/box_460_245/image.jpg" alt="loki pic" onclick="">
-        
+        <img src="https://www.irishtimes.com/polopoly_fs/1.4589815.1623338484!/image/image.jpg_gen/derivatives/box_460_245/image.jpg" alt="loki pic">
     </div>
+    <div id="char"></div>
     <!--end of character info-->
-    <div>
-   <ul id="charContainer"> </ul>
-   <ul id="epContainer"> </ul>
-</div>
-
+    <h1 class="titles">about</h1>
+    <div id="summ"></div>
+    <!--beginning of episodes-->
+    <h1 class="titles">episodes</h1>
+    <div id="episodes"> </div>
+    <!--end of episodes-->
 <div id=quizContainer>
     <div id="quizQuestions">
         <div id="lokiQuiz">
             <h2>can you pass the quiz?</h2>
-            <p id="Q1"> "Loki is 400 years old."
+            <p id="Q1" onmouseover="this.style.color='green'" onmouseout="this.style.color='black'"> "Loki is 400 years old."
                 <br>
      <button id="trueButton">true</button>
      <button id="falseButton">false</button>
             </p>
-            <p id="Q2">"In Episode 4, Mobius is killed."
+            <p id="Q2" onmouseover="this.style.color='silver'" onmouseout="this.style.color='black'">"In Episode 4, Mobius is killed."
                 <br>
         <button id="trueButton2">true</button>
         <button id="falseButton2">false</button>

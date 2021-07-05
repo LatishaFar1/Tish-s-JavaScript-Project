@@ -6,42 +6,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const characterURL =  "http://localhost:3000/loki"
 const episodeURL = "http://localhost:3000/Episodes"
+const descURL = "http://localhost:3000/Descripton"
 
 
 fetch(characterURL)
 .then(res => res.json())
 .then(data => {
-  console.log(data)
-  const ul = document.querySelector("#charContainer")
-  data.forEach(loki => {
-    const charpieces =  loki.summary;
-   const li = document.createElement("charContainer")
-    li.innerText = charpieces
-    ul.append(li)
-  })
+  const html = data.map(loki => {
+    return `<p></p>` + loki.age + `<p></p>` + loki.summary;
+  }).join("");
+  console.log(html)
+  document.querySelector("#char").innerHTML = html;
 })
+
+fetch(descURL)
+.then(res => res.json())
+.then(data => {
+  const html = data.map(Description => {
+    return `<p></p>` + Description.genre + `<p></p>` + Description.summary;
+  }).join("");
+  console.log(html)
+  document.querySelector("#summ").innerHTML = html;
+})
+
 
 fetch(episodeURL)
 .then(res => res.json())
 .then(data => {
-  console.log(data)
-  const ul = document.querySelector("#epContainer")
-  data.forEach(Episodes => {
-    const eppieces = Episodes.name + " SUMMARY: " + Episodes.summary ;
-   const li = document.createElement("epContainer")
-    li.innerHTML = eppieces
-    ul.append(li)
-  })
+  const html = data.map(Episodes => {
+    return `<p></p>` + Episodes.name + `<p></p>` + Episodes.summary;
+  }).join("");
+  console.log(html)
+  document.querySelector("#episodes").innerHTML = html;
 })
 
 
-//Event Listeners
-      // onmouseover in html
-     const mainphoto = document.getElementById("main-photo");
 
-     mainphoto.addEventListener("mouseover", () => 
-     mainphoto.innerText = "loki show"
-     );
+//Event Listeners
+      // onmouseover in html for quiz
+   
+
       //selecting answer
   const trueButton = document.getElementById("trueButton");
   const falseButton = document.getElementById("falseButton");
