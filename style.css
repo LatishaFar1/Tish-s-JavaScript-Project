@@ -72,6 +72,23 @@ header{
 button{
  color: 	#FFFACD;
  background-color: #4CAF50;
+ font-size: 20px;
+}
+
+#suggestion{
+color: white;
+display: block;
+text-align:center;
+}
+
+#suggested{
+    color: white;
+    background-color: black;
+    width: 600px;
+    border: 20px solid green;
+    padding: 20px;
+    margin: auto;
+    font-size: 40px;
 }
 #subscribe{
     text-align:center;

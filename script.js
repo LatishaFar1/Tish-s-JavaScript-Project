@@ -70,5 +70,21 @@ fetch(episodeURL)
     alert("submitted!")
   });
 
+  //bonus! random marvel movie/tv show suggestion
+   const suggestionbutt = document.getElementById("suggestionbutt");
+  const suggested = document.getElementById("suggested");
+
+  const suggestions = [
+    "Thor",
+    "Thor: The Dark World",
+    "Thor: Ragnarok",
+    "Avengers",
+    "Avengers: Infinity War"
+  ];
+
+  suggestionbutt.addEventListener("click", () => {
+    const randomsugg = suggestions[Math.floor(Math.random() * suggestions.length)]
+    suggested.innerHTML = randomsugg;
+  })
 
 });
