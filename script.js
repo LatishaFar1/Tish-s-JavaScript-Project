@@ -23,7 +23,7 @@ fetch(descURL)
 .then(res => res.json())
 .then(data => {
   const html = data.map(Description => {
-    return `<p></p>` + Description.genre + `<p></p>` + Description.summary;
+    return `<p></p>` + "genre: " + Description.genre + `<p></p>` + Description.summary;
   }).join("");
   console.log(html)
   document.querySelector("#summ").innerHTML = html;
